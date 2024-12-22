@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FeelsLike</string>
+
+    <!-- HomeScreen.kt -->
+    <string name="error_failed_search_cities">Error al buscar ciudades.</string>
+    <string name="error_failed_get_weather">Error al obtener el clima actual de &lt;b>%1$s&lt;/b>.</string>
+    <string name="error_failed_search_results">Error al obtener resultados de búsqueda, por favor verifica tu conexión a internet.</string>
+
+    <!-- ErrorContent.kt -->
+    <string name="error_title">Error de Red</string>
+
+    <!-- NoCitySelectedContent.kt -->
+    <string name="no_city_title">Ninguna Ciudad Seleccionada</string>
+    <string name="no_city_message">Por favor, Busca una Ciudad</string>
+
+    <!-- LocationSearchResultListContent.kt -->
+    <string name="city_location_format">%1$s, %2$s</string>
+    <string name="temperature_format">%1$d°</string>
+
+    <!-- SearchLocationBar.kt -->
+    <string name="search_location_hint">Buscar Ciudad</string>
+    <string name="search_icon_description">Buscar</string>
+
+    <!-- SelectedCityContent.kt -->
+    <string name="weather_info_humidity">Humedad</string>
+    <string name="weather_info_uv">UV</string>
+    <string name="weather_info_feels_like">Sensación</string>
+    <string name="weather_info_humidity_format">%1$d%%</string>
+    <string name="weather_info_feels_like_format">%1$d°</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dimens.xml -->
+<resources>
+    <!-- HomeScreen.kt -->
+    <dimen name="home_screen_top_padding">44dp</dimen>
+    <dimen name="home_screen_horizontal_padding">16dp</dimen>
+
+    <!-- SelectedCityContent.kt -->
+    <dimen name="weather_icon_size">150dp</dimen>
+    <dimen name="city_name_top_padding">24dp</dimen>
+    <dimen name="city_name_text_size">30sp</dimen>
+    <dimen name="temperature_text_size">70sp</dimen>
+    <dimen name="weather_card_horizontal_padding">40dp</dimen>
+    <dimen name="weather_card_top_padding">35dp</dimen>
+    <dimen name="weather_card_content_padding">16dp</dimen>
+    <dimen name="weather_info_label_text_size">12sp</dimen>
+    <dimen name="weather_info_value_text_size">15sp</dimen>
+
+    <!-- ErrorContent.kt -->
+    <dimen name="error_title_text_size">30sp</dimen>
+    <dimen name="error_spacer_height">8dp</dimen>
+    <dimen name="error_message_text_size">16sp</dimen>
+
+    <!-- NoCitySelectedContent.kt -->
+    <dimen name="no_city_title_text_size">30sp</dimen>
+    <dimen name="no_city_title_line_height">30sp</dimen>
+    <dimen name="no_city_spacer_height">8dp</dimen>
+    <dimen name="no_city_message_text_size">16sp</dimen>
+
+    <!-- LocationSearchResultListContent.kt -->
+    <dimen name="search_results_vertical_spacing">8dp</dimen>
+    <dimen name="search_results_content_padding">8dp</dimen>
+    <dimen name="search_result_corner_radius">12dp</dimen>
+    <dimen name="search_result_content_padding">16dp</dimen>
+    <dimen name="search_result_city_text_size">20sp</dimen>
+    <dimen name="search_result_temperature_text_size">60sp</dimen>
+    <dimen name="search_result_weather_icon_size">70dp</dimen>
+
+    <!-- SearchLocationBar.kt -->
+    <dimen name="search_bar_height">56dp</dimen>
+    <dimen name="search_bar_horizontal_padding">8dp</dimen>
+    <dimen name="search_bar_corner_radius">28dp</dimen>
+    <dimen name="search_bar_content_padding">16dp</dimen>
+    <dimen name="search_bar_text_size">16sp</dimen>
+</resources>
