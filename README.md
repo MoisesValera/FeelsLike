@@ -1,6 +1,6 @@
 # FeelsLike Weather App ⛅️
 
-![Code Coverage](https://img.shields.io/badge/Coverage-81%25-brightgreen.svg)
+![Code Coverage](https://img.shields.io/badge/Coverage-83%25-brightgreen.svg)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 ![Testing](https://img.shields.io/badge/Testing-Unit%20%7C%20UI%20%7C%20Screenshot-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Android-blue.svg)
@@ -78,7 +78,7 @@ This architecture provides:
 
 Our comprehensive testing strategy ensures high-quality code:
 
-- ✅ **81% Code Coverage**
+- ✅ **83% Code Coverage**
   - Powered by Jacoco for detailed coverage reporting
   - HTML and XML reports generation
 - ✅ **Unit Tests**
