@@ -8,6 +8,10 @@
 
 FeelsLike is a modern Android weather application built with Jetpack Compose that provides weather information with an intuitive user interface.
 
+## 🎥 Demo
+
+https://github.com/user-attachments/assets/4613522d-2851-446b-871c-e7c0032b1a40
+
 ## 🎯 Key Features
 
 - **Real-time Weather Data**: Accurate weather information using WeatherAPI
