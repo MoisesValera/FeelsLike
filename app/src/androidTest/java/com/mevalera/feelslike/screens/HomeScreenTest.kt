@@ -247,6 +247,6 @@ class HomeScreenTest {
         }
 
         composeTestRule.onNode(hasText("Network Error")).assertExists()
-        composeTestRule.onNode(hasText("Failed to get current London's weather.")).assertExists()
+        composeTestRule.onNode(hasText("Failed to get weather in London.")).assertExists()
     }
 }
