@@ -32,10 +32,12 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.mevalera.feelslike.R
+import com.mevalera.feelslike.ui.theme.poppinsFamily
 
 @Composable
 fun SearchLocationBar(
@@ -80,6 +82,8 @@ fun SearchLocationBar(
                 if (searchText.isEmpty()) {
                     Text(
                         text = stringResource(R.string.search_location_hint),
+                        fontFamily = poppinsFamily,
+                        fontWeight = FontWeight.Normal,
                         color = Color(0xFFC4C4C4),
                         modifier = Modifier.fillMaxWidth(),
                     )
@@ -94,6 +98,8 @@ fun SearchLocationBar(
                         TextStyle(
                             color = Color.Black,
                             fontSize = dimensionResource(R.dimen.search_bar_text_size).value.sp,
+                            fontFamily = poppinsFamily,
+                            fontWeight = FontWeight.Normal,
                         ),
                     singleLine = true,
                     keyboardOptions =

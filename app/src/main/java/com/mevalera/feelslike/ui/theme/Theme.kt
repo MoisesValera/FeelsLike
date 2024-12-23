@@ -8,7 +8,6 @@ import androidx.compose.runtime.Composable
 fun FeelsLikeTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
         content = content,
     )
 }

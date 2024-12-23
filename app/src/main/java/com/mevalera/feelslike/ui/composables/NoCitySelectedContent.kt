@@ -17,6 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.mevalera.feelslike.R
+import com.mevalera.feelslike.ui.theme.poppinsFamily
 
 @Composable
 fun NoCitySelectedContent() {
@@ -30,7 +31,8 @@ fun NoCitySelectedContent() {
             lineHeight = dimensionResource(R.dimen.no_city_title_line_height).value.sp,
             text = stringResource(R.string.no_city_title),
             fontSize = dimensionResource(R.dimen.no_city_title_text_size).value.sp,
-            fontWeight = FontWeight.Bold,
+            fontFamily = poppinsFamily,
+            fontWeight = FontWeight.SemiBold,
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.no_city_spacer_height)))
         Text(
@@ -38,6 +40,8 @@ fun NoCitySelectedContent() {
             text = stringResource(R.string.no_city_message),
             fontSize = dimensionResource(R.dimen.no_city_message_text_size).value.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+            fontFamily = poppinsFamily,
+            fontWeight = FontWeight.SemiBold,
         )
     }
 }

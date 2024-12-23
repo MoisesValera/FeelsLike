@@ -8,9 +8,10 @@
     <!-- SelectedCityContent.kt -->
     <dimen name="weather_icon_size">150dp</dimen>
     <dimen name="city_name_top_padding">24dp</dimen>
+    <dimen name="city_name_right_icon_padding">12dp</dimen>
     <dimen name="city_name_text_size">30sp</dimen>
     <dimen name="temperature_text_size">70sp</dimen>
-    <dimen name="weather_card_horizontal_padding">40dp</dimen>
+    <dimen name="weather_card_horizontal_padding">20dp</dimen>
     <dimen name="weather_card_top_padding">35dp</dimen>
     <dimen name="weather_card_content_padding">16dp</dimen>
     <dimen name="weather_info_label_text_size">12sp</dimen>

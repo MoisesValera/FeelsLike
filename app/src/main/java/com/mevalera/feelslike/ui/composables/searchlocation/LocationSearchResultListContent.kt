@@ -32,6 +32,7 @@ import com.mevalera.feelslike.domain.model.CityWeather
 import com.mevalera.feelslike.domain.model.Condition
 import com.mevalera.feelslike.domain.model.Current
 import com.mevalera.feelslike.domain.model.Location
+import com.mevalera.feelslike.ui.theme.poppinsFamily
 
 @Composable
 fun LocationSearchResultListContent(
@@ -95,12 +96,13 @@ fun LocationSearchResultItem(
                             stringResource(
                                 R.string.city_location_format,
                                 cityWeather.location.name,
-                                cityWeather.location.country ?: ""
+                                cityWeather.location.country ?: "",
                             ),
                         fontSize = dimensionResource(R.dimen.search_result_city_text_size).value.sp,
-                        fontWeight = FontWeight.Medium,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
+                        fontFamily = poppinsFamily,
+                        fontWeight = FontWeight.SemiBold,
                     )
                     Text(
                         text =
@@ -109,7 +111,8 @@ fun LocationSearchResultItem(
                                 cityWeather.current.tempC.toInt(),
                             ),
                         fontSize = dimensionResource(R.dimen.search_result_temperature_text_size).value.sp,
-                        fontWeight = FontWeight.Bold,
+                        fontFamily = poppinsFamily,
+                        fontWeight = FontWeight.Medium,
                     )
                 }
 

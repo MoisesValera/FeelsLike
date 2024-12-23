@@ -17,6 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import com.mevalera.feelslike.R
+import com.mevalera.feelslike.ui.theme.poppinsFamily
 
 @Composable
 fun ErrorContent(message: AnnotatedString) {
@@ -28,7 +29,8 @@ fun ErrorContent(message: AnnotatedString) {
         Text(
             text = stringResource(R.string.error_title),
             fontSize = dimensionResource(R.dimen.error_title_text_size).value.sp,
-            fontWeight = FontWeight.Bold,
+            fontFamily = poppinsFamily,
+            fontWeight = FontWeight.SemiBold,
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.error_spacer_height)))
         Text(
@@ -36,6 +38,7 @@ fun ErrorContent(message: AnnotatedString) {
             text = message,
             fontSize = dimensionResource(R.dimen.error_message_text_size).value.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+            fontFamily = poppinsFamily,
         )
     }
 }
